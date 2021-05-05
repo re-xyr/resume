@@ -1,0 +1,6 @@
+cradle:
+  stack:
+    - path: "./config"
+      component: "resume:exe:resume-exe"
+    - path: "./lib"
+      component: "resume:lib"

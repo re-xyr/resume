@@ -1,0 +1,19 @@
+{
+  "name": "resume",
+  "version": "1.0.0",
+  "description": "",
+  "main": "scripts/genpdf.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/re-xyr/resume.git"
+  },
+  "author": "Xy Ren",
+  "license": "BSD3",
+  "bugs": {
+    "url": "https://github.com/re-xyr/resume/issues"
+  },
+  "homepage": "https://github.com/re-xyr/resume#readme",
+  "devDependencies": {
+    "puppeteer-core": "^13.5.1"
+  }
+}

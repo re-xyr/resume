@@ -1,0 +1,49 @@
+name:                resume
+version:             0.1.0.0
+github:              "re-xyr/resume"
+license:             BSD3
+author:              "Xy Ren"
+maintainer:          "xy.r@outlook.com"
+copyright:           "2021 Xy Ren"
+
+extra-source-files:
+- README.md
+
+description:         Please see the README on GitHub at <https://github.com/xy-ren/resume#readme>
+
+dependencies:
+- base
+- clay
+- lucid
+- text
+
+library:
+  source-dirs: lib
+
+ghc-options:
+- -Wall
+- -Wincomplete-uni-patterns
+- -Wpartial-fields
+- -Wincomplete-record-updates
+- -Widentities
+
+executables:
+  resume-exe:
+    main:                Main.hs
+    source-dirs:         config
+    ghc-options:
+    - -threaded
+    - -rtsopts
+    - -with-rtsopts=-N
+    dependencies:
+    - resume
+
+default-extensions:
+- AllowAmbiguousTypes
+- BlockArguments
+- FlexibleContexts
+- LambdaCase
+- OverloadedLists
+- OverloadedStrings
+- PostfixOperators
+- TypeFamilies
